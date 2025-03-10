@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> IDV 2025 Assignment 1 </title>
+
+        <style> 
+            /* Heading 1 Style */
+            h1 {
+                font-family: Agency FB;
+                text-align: center;
+                background-color: rgb(138, 205, 203);
+                padding: 10px;
+            }
+            /* Heading 2 Style */
+            h2 {
+                font-family: Agency FB;
+                text-align: center;
+            }
+            /* Heading 3 Style */
+            h3 {
+                font-family: Agency FB;
+                text-align: center;
+            }
+            tr:nth-child(odd) {
+                background: rgb(192, 224, 213);
+            }
+            tr:nth-child(even) {
+                background: rgb(222, 242, 236);
+            }
+            th, td {
+                font-family: Cambria;
+                text-align: center;
+                vertical-align: middle;
+                border: 1px solid white;
+                border-collapse: collapse;
+                /* background-color: rgb(192, 224, 213); */
+                padding: 5px;
+            }
+            td {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 15px;
+            }
+            th {
+                text-align: center;
+                background-color: rgb(108, 194, 146);
+                padding: 10px;
+            }
+            /* Outer border of table */
+            #psi_table {
+                width: 70%;
+                margin: 25px auto;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            tr:hover {
+                background-color: rgb(156, 170, 163);
+            }
+            
+        </style>
+
+    </head>
+    <body style = "background-color: rgb(216, 226, 227)">
+        <h1> Singapore's Pollution Standard Index (PSI) Readings </h1>
+        <h3 id = "timestamp"> </h3>
+        <h2 id = "psi_status"> </h2>
+        <div style = "text-align: center;">
+            <table id = "psi_table">
+                <tbody> 
+                    <tr>
+                        <th style = "width: 30%;"> Metric </th>
+                        <th> Central </th>
+                        <th> East </th>
+                        <th> North </th>
+                        <th> South </th>
+                        <th> West </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src = "script.js">
+        </script>
+
+        
+        <h3> 
+            Data updated hourly by the 
+            <a href = "https://www.haze.gov.sg/"> National Environmental Agency (NEA) of Singapore</a>. 
+            <br> Retrieved via an API (found on the 
+            <a href = "https://data.gov.sg/datasets/d_8a7850dc3993dc45f1620b9972c58d4d/view"> data.gov.sg </a> 
+            website). 
+        </h3>
+
+        <h3> 
+            02.526 IDV - Assignment 1 | By kkjy99
+        </h3>
+    </body>
+</html>
+</html>
